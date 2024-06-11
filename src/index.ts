@@ -1,4 +1,5 @@
-import 'k8w-extend-native';
+// Extends
+export * from './extends';
 
 // Common
 export * from './baseclient';

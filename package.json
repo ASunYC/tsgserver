@@ -1,5 +1,5 @@
 {
-  "name": "tsgserver",
+  "name": "@asun01/tsgserver",
   "version": "1.0.0",
   "description": "A TypeScript Lib For HTTP and WebSocket.",
   "main": "index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/asun01/tsgserver.git"
+    "url": "https://github.com/ASunYC/tsgserver.git"
   },
   "keywords": [
     "asun01",
@@ -59,9 +59,14 @@
   "dependencies": {
     "@types/ws": "^7.4.7",
     "chalk": "^4.1.2",
-    "tsbuffer": "^2.2.9",
+    "tsbuffer-validator": "^2.1.2",
     "uuid": "^8.3.2",
+    "tslib": "*",
     "ws": "^7.5.9"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "nyc": {
     "extension": [

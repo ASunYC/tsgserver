@@ -2,7 +2,7 @@ import { ObjectId } from 'bson';
 import { assert } from 'chai';
 import chalk from 'chalk';
 import * as path from "path";
-import { Base64Util } from 'tsbuffer';
+import { Base64Util } from '../../src/tsbuffer';
 import { ServiceProto, TsrpcError, TsrpcErrorType } from '../../src/proto';
 import { ApiCall, BaseServer, HttpConnection, MsgCall, TerminalColorLogger } from '../../src';
 import { HttpServer } from '../../src/server/http/HttpServer';

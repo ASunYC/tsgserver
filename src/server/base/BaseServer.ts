@@ -1,6 +1,6 @@
 import chalk from "chalk";
 import * as path from "path";
-import { TSBuffer } from 'tsbuffer';
+import { TSBuffer } from '../../tsbuffer';
 import { Counter, Flow, getCustomObjectIdTypes, MsgHandlerManager, MsgService, ParsedServerInput, ServiceMap, ServiceMapUtil, TransportDataUtil } from '../../baseclient';
 import { ApiReturn, ApiServiceDef, BaseServiceType, Logger, LogLevel, ServerInputData, ServiceProto, setLogLevel, TsrpcError, TsrpcErrorType } from '../../proto';
 import { getClassObjectId } from "../../models/getClassObjectId";

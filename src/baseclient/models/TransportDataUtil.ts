@@ -1,4 +1,4 @@
-import { TSBuffer } from "tsbuffer";
+import { TSBuffer } from "../../tsbuffer";
 import { ApiReturn, ServerInputData, ServerOutputData, TransportDataProto, TsrpcError } from '../../proto';
 import { BaseClient } from "..";
 import { ApiService, MsgService, ServiceMap } from "./ServiceMapUtil";

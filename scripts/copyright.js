@@ -3,5 +3,5 @@ module.exports = `/*!
  * -----------------------------------------
  * Copyright (c) asun01.
  * MIT License
- * https://github.com/asun01/tsgserver
+ * https://github.com/ASunYC/tsgserver.git
  */`

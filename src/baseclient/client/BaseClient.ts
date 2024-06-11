@@ -1,4 +1,4 @@
-import { TSBuffer } from "tsbuffer";
+import { TSBuffer } from "../../tsbuffer";
 import { ApiReturn, BaseServiceType, Logger, LogLevel, ServiceProto, setLogLevel, TsrpcError, TsrpcErrorType } from "../../proto";
 import { ApiReturnFlowData, CallApiFlowData, RecvMsgFlowData, SendMsgFlowData } from "../models/ClientFlowData";
 import { Counter } from "../models/Counter";

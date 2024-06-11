@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { TSBuffer } from 'tsbuffer';
+import { TSBuffer } from '../../tsbuffer';
 import { ApiService, TransportDataUtil } from "../../baseclient";
 import { ApiReturn, BaseServiceType, ServerOutputData, TsrpcError, TsrpcErrorData, TsrpcErrorType } from "../../proto";
 import { PrefixLogger } from "../models/PrefixLogger";
