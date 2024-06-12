@@ -7,8 +7,8 @@ export * from './proto';
 export * from './client/http/HttpClient';
 export * from './client/ws/WsClient';
 export * from './models/version';
-export * from './server/base/ApiCall';
 // Base
+export * from './server/base/ApiCall';
 export * from './server/base/BaseCall';
 export * from './server/base/BaseConnection';
 export * from './server/base/BaseServer';

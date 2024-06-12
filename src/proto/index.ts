@@ -5,4 +5,4 @@ export * from './models/ServiceProto';
 export * from './models/TransportData';
 export * from './models/TransportDataProto';
 export * from './models/TsrpcError';
-export { int, uint, bigint64, biguint64 } from 'tsbuffer-schema';
+export { int, uint, bigint64, biguint64 } from '../tsbuffer-schema';

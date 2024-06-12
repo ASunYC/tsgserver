@@ -1,5 +1,5 @@
-import { BufferTypeSchema, InterfaceTypeSchema, IntersectionTypeSchema, NumberTypeSchema, OmitTypeSchema, OverwriteTypeSchema, PartialTypeSchema, PickTypeSchema, SchemaType, TSBufferSchema, TypeReference, UnionTypeSchema } from "tsbuffer-schema";
-import { TSBufferValidator } from "tsbuffer-validator";
+import { BufferTypeSchema, InterfaceTypeSchema, IntersectionTypeSchema, NumberTypeSchema, OmitTypeSchema, OverwriteTypeSchema, PartialTypeSchema, PickTypeSchema, SchemaType, TSBufferSchema, TypeReference, UnionTypeSchema } from "../../tsbuffer-schema";
+import { TSBufferValidator } from "../../tsbuffer-validator";
 import { Base64Util } from "../models/Base64Util";
 import { CoderUtil } from "../models/CoderUtil";
 import { IdBlockUtil, LengthType } from '../models/IdBlockUtil';

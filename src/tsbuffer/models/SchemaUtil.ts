@@ -1,4 +1,4 @@
-import { TSBufferSchema, SchemaType } from "tsbuffer-schema";
+import { TSBufferSchema, SchemaType } from "../../tsbuffer-schema";
 
 /** @internal */
 export class SchemaUtil {

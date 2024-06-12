@@ -59,7 +59,6 @@
   "dependencies": {
     "@types/ws": "^7.4.7",
     "chalk": "^4.1.2",
-    "tsbuffer-validator": "^2.1.2",
     "uuid": "^8.3.2",
     "tslib": "*",
     "ws": "^7.5.9"

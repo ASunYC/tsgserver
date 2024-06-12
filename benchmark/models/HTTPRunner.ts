@@ -1,7 +1,7 @@
 import 'colors';
 import * as http from "http";
 import * as https from "https";
-import 'k8w-extend-native';
+import '../../src/extends';
 import { TsrpcError, TsrpcErrorType } from "../../src/proto";
 import { HttpClient } from '../../src/client/http/HttpClient';
 import { benchmarkConfig } from "../config/BenchmarkConfig";

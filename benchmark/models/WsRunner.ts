@@ -1,6 +1,6 @@
 import assert from 'assert';
 import 'colors';
-import 'k8w-extend-native';
+import '../../src/extends';
 import { TsrpcErrorType } from "../../src/proto";
 import { WsClient } from '../../src/client/ws/WsClient';
 import { benchmarkConfig } from "../config/BenchmarkConfig";

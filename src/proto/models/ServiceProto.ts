@@ -1,4 +1,4 @@
-import { TSBufferProto } from 'tsbuffer-schema';
+import { TSBufferProto } from '../../tsbuffer-schema';
 import { BaseServiceType } from './BaseServiceType';
 export interface BaseServiceDef {
     id: number;

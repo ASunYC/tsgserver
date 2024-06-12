@@ -1,4 +1,4 @@
-import { int } from "tsbuffer-schema";
+import { int } from "../../tsbuffer-schema";
 import { TsrpcErrorData, TsrpcErrorType } from "./TransportData";
 import { __assign } from "tslib";
 

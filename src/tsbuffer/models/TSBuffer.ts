@@ -1,5 +1,5 @@
-import { CustomTypeSchema, TSBufferProto, TSBufferSchema } from "tsbuffer-schema";
-import { TSBufferValidator } from 'tsbuffer-validator';
+import { CustomTypeSchema, TSBufferProto, TSBufferSchema } from "../../tsbuffer-schema";
+import { TSBufferValidator } from '../../tsbuffer-validator';
 import { Decoder } from "../decoder/Decoder";
 import { Encoder } from '../encoder/Encoder';
 

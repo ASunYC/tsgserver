@@ -1,4 +1,4 @@
-import { int, uint } from 'tsbuffer-schema';
+import { int, uint } from '../../tsbuffer-schema';
 
 /**
  * Basic transport data unit,

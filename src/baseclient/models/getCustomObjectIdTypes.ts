@@ -1,4 +1,4 @@
-import { CustomTypeSchema, SchemaType } from 'tsbuffer-schema';
+import { CustomTypeSchema, SchemaType } from '../../tsbuffer-schema';
 
 export function getCustomObjectIdTypes(classObjectId: { new(id?: any): any }): { [schemaId: string]: CustomTypeSchema } {
     let output: { [schemaId: string]: CustomTypeSchema } = {};

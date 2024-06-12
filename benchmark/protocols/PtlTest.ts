@@ -1,4 +1,4 @@
-import { uint } from 'tsbuffer-schema';
+import { uint } from '../../src/tsbuffer-schema';
 export interface ReqTest {
     a?: uint;
     b?: string;

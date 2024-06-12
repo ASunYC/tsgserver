@@ -1,4 +1,4 @@
-import { SchemaType, TSBufferSchema } from "tsbuffer-schema";
+import { SchemaType, TSBufferSchema } from "../../tsbuffer-schema";
 
 export const TransportDataProto: {
   ServerInputData: TSBufferSchema,

@@ -1,4 +1,4 @@
-import 'k8w-extend-native';
+import '../extends';
 
 export * from './client/BaseClient';
 export * from './client/BaseHttpClient';

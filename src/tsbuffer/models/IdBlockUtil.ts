@@ -1,5 +1,5 @@
-import { SchemaType, TSBufferSchema, TypeReference } from "tsbuffer-schema";
-import { ProtoHelper } from "tsbuffer-validator";
+import { SchemaType, TSBufferSchema, TypeReference } from "../../tsbuffer-schema";
+import { ProtoHelper } from "../../tsbuffer-validator";
 
 /** @internal */
 export class IdBlockUtil {

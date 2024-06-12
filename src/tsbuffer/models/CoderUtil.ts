@@ -1,5 +1,5 @@
-import { SchemaType, TSBufferSchema } from 'tsbuffer-schema';
-import { TSBufferValidator } from 'tsbuffer-validator';
+import { SchemaType, TSBufferSchema } from '../../tsbuffer-schema';
+import { TSBufferValidator } from '../../tsbuffer-validator';
 
 export class CoderUtil {
     static isJsonCompatible(schema: TSBufferSchema, type: 'encode' | 'decode', protoHelper: TSBufferValidator['protoHelper']): boolean {
