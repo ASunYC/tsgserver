@@ -1,7 +1,7 @@
 import 'colors';
 import * as http from "http";
 import * as https from "https";
-import '../../src/extends';
+import '@asun01/asun-extend-native';
 import { TsrpcError, TsrpcErrorType } from "../../src/proto";
 import { HttpClient } from '../../src/client/http/HttpClient';
 import { benchmarkConfig } from "../config/BenchmarkConfig";

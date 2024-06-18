@@ -1,4 +1,4 @@
-import '../extends';
+import '@asun01/asun-extend-native';
 
 export * from './client/BaseClient';
 export * from './client/BaseHttpClient';

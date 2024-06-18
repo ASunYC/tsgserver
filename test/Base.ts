@@ -1,1 +1,1 @@
-import '../src/extends';
+import '@asun01/asun-extend-native';

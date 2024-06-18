@@ -1,5 +1,5 @@
 // Extends
-export * from './extends';
+import '@asun01/asun-extend-native';
 
 // Common
 export * from './baseclient';

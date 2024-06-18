@@ -1,6 +1,6 @@
 import assert from 'assert';
 import 'colors';
-import '../../src/extends';
+import '@asun01/asun-extend-native';
 import { TsrpcErrorType } from "../../src/proto";
 import { WsClient } from '../../src/client/ws/WsClient';
 import { benchmarkConfig } from "../config/BenchmarkConfig";
